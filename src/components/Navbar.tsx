@@ -26,7 +26,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center space-x-2 group">
               <div className="relative">
                 <Star className="h-8 w-8 text-yellow-400 group-hover:animate-spin" />
-                <div className="absolute -top-1 -right-1 w-4 h-4 bg-pink-500 rounded-full flex items-center justify-center text-white text-xs font-bold">
+                <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-400 rounded-full flex items-center justify-center text-white text-xs font-bold">
                   5
                 </div>
               </div>
