@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Star, ArrowRight, Target, Trophy, Users, Award } from 'lucide-react';
+import { Star, ArrowRight, Target, Trophy, Users } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 const Home = () => {
@@ -29,8 +29,8 @@ const Home = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-20 pb-8 sm:pb-16 relative">
         {/* Main CTA */}
         <div className="text-center mb-8 sm:mb-16 relative">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-16 sm:w-24 h-16 sm:h-24 animate-float">
-            <div className="relative">
+          <div className="flex justify-center mb-16 sm:mb-24">
+            <div className="relative animate-float">
               <div className="w-16 sm:w-24 h-16 sm:h-24 bg-gradient-to-r from-yellow-400 to-pink-500 rounded-full flex items-center justify-center animate-pulse">
                 <Star className="h-8 sm:h-12 w-8 sm:w-12 text-white animate-spin-slow" />
               </div>
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="pt-24 sm:pt-32 animate-fade-in">
+          <div className="animate-fade-in">
             <div className="bg-white/5 backdrop-blur-lg rounded-3xl p-4 sm:p-8 max-w-4xl mx-auto border border-white/10">
               <h1 className="text-3xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-green-400 to-emerald-500 mb-4 sm:mb-6">
                 Win ₹10,000 Every Match!
