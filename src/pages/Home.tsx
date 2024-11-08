@@ -32,7 +32,7 @@ const Home = () => {
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-16 sm:w-24 h-16 sm:h-24 animate-float">
             <div className="relative">
               <div className="w-16 sm:w-24 h-16 sm:h-24 bg-gradient-to-r from-yellow-400 to-pink-500 rounded-full flex items-center justify-center animate-pulse">
-                <Award className="h-8 sm:h-12 w-8 sm:w-12 text-white animate-spin-slow" />
+                <Star className="h-8 sm:h-12 w-8 sm:w-12 text-white animate-spin-slow" />
               </div>
               <div className="absolute -top-2 -right-2 w-6 sm:w-8 h-6 sm:h-8 bg-green-400 rounded-full flex items-center justify-center text-white font-bold animate-bounce">
                 5
@@ -139,7 +139,7 @@ const Home = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
             <div className="flex flex-col sm:flex-row justify-between items-center">
               <div className="flex items-center space-x-2 mb-2 sm:mb-0 animate-fade-in">
-                <Award className="h-5 w-5 sm:h-6 sm:w-6 text-yellow-400" />
+                <Star className="h-5 w-5 sm:h-6 sm:w-6 text-yellow-400" />
                 <span className="text-white font-semibold">Pick5</span>
               </div>
               <p className="text-purple-200 text-sm animate-fade-in">
